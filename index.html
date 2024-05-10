@@ -2,74 +2,46 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Your Domain Sales Page</title>
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        background-color: #f8f9fa;
-        margin: 0;
-        padding: 0;
-    }
-    .container {
-        max-width: 600px;
-        margin: 50px auto;
-        padding: 20px;
-        background-color: #fff;
-        border-radius: 10px;
-        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    }
-    h1 {
-        color: #333;
-        margin-bottom: 20px;
-    }
-    p {
-        color: #666;
-        margin-bottom: 30px;
-    }
-    .button {
-        display: inline-block;
-        padding: 10px 20px;
-        background-color: #007bff;
-        color: #fff;
-        text-decoration: none;
-        border-radius: 5px;
-        transition: background-color 0.3s;
-        position: relative;
-        overflow: hidden;
-    }
-    .button:hover {
-        background-color: #0056b3;
-    }
-    .button::after {
-        content: "";
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        width: 300%;
-        height: 300%;
-        background-color: rgba(255, 255, 255, 0.1);
-        border-radius: 50%;
-        transition: width 0.3s, height 0.3s, top 0.3s, left 0.3s;
-        z-index: 0;
-        transform: translate(-50%, -50%);
-    }
-    .button:hover::after {
-        width: 0;
-        height: 0;
-    }
-    .button span {
-        position: relative;
-        z-index: 1;
-    }
-</style>
+<title>Domain Marketplace</title>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Welcome to Your Domain Sales Page</h1>
-        <p>If you're interested in purchasing a domain, please click the button below to email me:</p>
-        <a class="button" href="mailto:AsgharTheBeast@protonmail.com"><span>Email Me</span></a>
-    </div>
+<header>
+  <h1>Domain Marketplace</h1>
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#domains">Domains</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Find Your Perfect Domain Name</h2>
+  <p>Search from our wide selection of domain names for your next project.</p>
+</section>
+
+<section class="domain-listings">
+  <h2>Featured Domains</h2>
+  <div class="domain">
+    <h3>ExampleDomain.com</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <p class="price">$99.99</p>
+  </div>
+  <!-- Add more domain listings here -->
+</section>
+
+<footer>
+  <p>&copy; 2024 Domain Marketplace. All rights reserved.</p>
+  <ul class="social-media">
+    <li><a href="#">Facebook</a></li>
+    <li><a href="#">Twitter</a></li>
+    <li><a href="#">Instagram</a></li>
+  </ul>
+</footer>
+
 </body>
 </html>
