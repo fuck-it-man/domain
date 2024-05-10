@@ -22,6 +22,7 @@ body {
   margin-bottom: 10px;
   display: flex; /* Align icon and domain name horizontally */
   align-items: center; /* Center vertically */
+  margin-bottom: 20px; /* Add margin between each domain */
 }
 
 .icon {
